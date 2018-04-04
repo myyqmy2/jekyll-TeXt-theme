@@ -15,9 +15,9 @@ text_color_theme: default #eg: default | dark | forest | ocean | chocolate | ora
 ## Base settings ##
 # url:  #the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl: /
-title: Someone's blog
+title: zyuyu's blog
 description: > #this means to ignore newlines until "nav_lists:"
-  Someone's Blog
+  zyuyu's blog
 
 nav_lists:
   - titles:
@@ -34,20 +34,20 @@ nav_lists:
 #   rss:  /feed.xml
 
 ## GitHub repository (if the site is hosted by GitHub) ##
-# repository:  #e.g. someone/someone.github.io
-# repository_tree:  #e.g. master
+repository:  myyqmy2/myyqmy2.github.io
+repository_tree:  master
 
 ## Language & timezone ##
-lang: en #the language of your site, eg: en(English), zh(简体中文), zh-Hans(简体中文), zh-Hant(繁體中文)
+lang: zh #the language of your site, eg: en(English), zh(简体中文), zh-Hans(简体中文), zh-Hant(繁體中文)
 timezone: Asia/Shanghai #see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 ## Author & social ##
 author:
-  name: Someone
-  # email:  #your Email address e.g. someone@site.com
+  name: zyuyu
+  email:  383982493@qq.com
   # facebook:  #your Facebook username
   # twitter:  #your Twitter username
-  # github:  #your GitHub username
+  github:  myyqmy2
   # googleplus:  #your Google+ username
   # weibo:  #your Weibo username
   # douban:  #your Douban username
@@ -64,26 +64,26 @@ disqus:
 ## Comment system (gitalk) ##
 # please refer to https://github.com/gitalk/gitalk for more info.
 gitalk:
-  # clientID:  #Github Application Client ID
-  # clientSecret:  #Github Application Client Secret
-  # repository:  #Github repo
-  # owner:  #Github repo owner
-  # admin: #Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
-    # - owner
+  clientID:  d59720e01580eeabd40a
+  clientSecret:  7145276a1fc1a99ed87ea49bc9aa11ec284c15b9
+  repository:  myyqmy2.github.io
+  owner:  myyqmy2
+  admin: 
+    - myyqmy2
 
 ## Google Analytics ##
 # ga_tracking_id:  #Google analytics id for the site
 
 ## Reading quantity (LeanCloud) ##
 leancloud:
-  # app_id:  #LeanCloud App id
-  # app_key:  #LeanCloud App key
-  # app_class:  #LeanCloud App class
+  app_id:  SL6fp4woHqXKnPLCAYqoP5ax-gzGzoHsz
+  app_key:  jLer1pxSkJz3Q9pUNMWo4hlv
+  app_class:  _User
 
-# mathjax: true
-# mathjax_autoNumber: true
-# mermaid: true
-# chart: true
+mathjax: true
+mathjax_autoNumber: true
+mermaid: true
+chart: true
 
 ## Paginate ##
 paginate: 7
@@ -91,7 +91,7 @@ paginate_path: /blog/page:num
 
 ## Post excerpts ##
 excerpt_separator: <!--more-->
-excerpt_type: text # text | html
+excerpt_type: html # text | html
 
 ## Sources ##
 # sources: bootcss #eg: bootcss | unpkg
